@@ -32,3 +32,10 @@ export const projects = [
     btn: "Live",
   },
 ];
+// export const skill = [
+//   {
+//     type: "Languages",
+
+    
+//   },
+// ];
