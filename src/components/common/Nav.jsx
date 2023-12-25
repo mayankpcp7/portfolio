@@ -25,7 +25,7 @@ const Nav = () => {
               to="/"
               className="ff_fira text-white font-bold flex items-center gap-2"
             >
-              <LogoIcon /> Sumit-chouhan
+              <LogoIcon /> Sumit-Chouhan
             </Link>
             <div className="hidden sm:block">
               <div className="gap-5 flex items-center">
@@ -48,7 +48,7 @@ const Nav = () => {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="relative z-10"
+                className="relative z-30"
               >
                 {!isOpen ? (
                   <Bars3CenterLeftIcon className="h-8 w-8 text-white" />
@@ -60,7 +60,7 @@ const Nav = () => {
           </div>
         </div>
         <div
-          className={`md:opacity-0 transition-all duration-300  fixed backdrop-blur-md h-screen w-screen z-0  top-0 ${
+          className={`md:opacity-0 transition-all duration-300  fixed backdrop-blur-md h-screen w-screen z-20  top-0 ${
             isOpen ? " translate-x-0" : "translate-x-[-100%]"
           }`}
           id="mobile-menu"
