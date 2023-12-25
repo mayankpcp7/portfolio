@@ -1,10 +1,10 @@
 import React from 'react'
-import Nav from '../components/common/Nav'
+import Header from '../components/Header'
 
 const Home = () => {
   return (
     <>
-    <Nav/>
+   <Header/>
     </>
   )
 }
