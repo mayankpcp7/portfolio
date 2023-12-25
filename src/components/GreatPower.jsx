@@ -3,7 +3,7 @@ import { DoubleQuotation } from "./common/Icon";
 
 const GreatPower = () => {
   return (
-    <div className="container xl:max-w-[1100px] 3xl:max-w-[1140px] mx-auto px-3">
+    <div className="container xl:max-w-[1100px] 3xl:max-w-[1140px] mx-auto px-3 pt-5 lg:pt-4">
       <div className="border border-[#ABB2BF] relative p-4 md:p-8">
         <span className="absolute top-[-10px] left-[2%] bg-[#282C33] px-1">
           <DoubleQuotation />

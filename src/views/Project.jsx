@@ -1,12 +1,14 @@
-import React from 'react'
-import Nav from '../components/common/Nav'
+import React from "react";
+import Nav from "../components/common/Nav";
+import Projects from "../components/Projects";
 
 const Project = () => {
   return (
     <>
-    <Nav/>
+      <Nav />
+      <Projects />
     </>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;
