@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.projects_line::before {
+  content: "";
+  position: absolute;
+  max-width: 551px;
+  width: 100%;
+  height: 2px;
+  background: #C778DD;
+top: 26px;
+    left: 193px;
+}
