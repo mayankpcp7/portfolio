@@ -4,9 +4,9 @@ const Skills = () => {
   return (
     
       <div className="px-3 container xl:max-w-[1100px] 3xl:max-w-[1140px] mx-auto pt-12 lg:pt-[106px]">
-        <h2 className=" text-white font-medium ff_fira text-[22px] sm:text-3xl md:text-[32px] sm:text-[32px] relative skills_line pb-6">
-          <span className="text-[#C778DD]">#</span>skills
-        </h2>
+          <h2 className=" text-white font-medium ff_fira text-[22px] sm:text-3xl md:text-[32px] sm:text-[32px] relative skills_line pb-6">
+            <span className="text-[#C778DD]">#</span>skills
+          </h2>
         <div className=" flex flex-wrap justify-between">
           <div className=" w-5/12 px-3 mt-9 hidden lg:block">
             <img 

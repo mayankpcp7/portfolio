@@ -15,7 +15,7 @@ const Footer = () => {
               to="/"
               className="ff_fira text-white font-bold flex items-center gap-2"
             >
-              <LogoIcon /> Sumit-Chouhan
+              <LogoIcon /> Kapil Dev
             </Link>
             <p className="text-[16px] ff_fira text-white mt-4">
               {" "}
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="text-[16px] ff_fira text-[#ABB2BF] text-center mt-12">
+        <p className="text-[16px] ff_fira text-[#ABB2BF] text-center mt-9 md:mt-12">
           © Copyright {getNewYear} Made by Kapil Dev
         </p>
       </div>
