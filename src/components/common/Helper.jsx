@@ -31,5 +31,26 @@ export const projects = [
     servers: "Get answers to your kahoot quiz",
     btn: "Live",
   },
+  {
+    img: projects_img2,
+    skill: "HTML SCSS Python Flask",
+    projectsName: "ProtectX",
+    servers: " Discord anti-crash bot",
+    btn: "Live",
+  },
+  {
+    img: projects_img,
+    skill: "HTML SCSS Python Flask",
+    projectsName: "ChertNodes",
+    servers: " Minecraft servers hosting",
+    btn: "Live",
+  },
+  {
+    img: projects_img2,
+    skill: "HTML SCSS Python Flask",
+    projectsName: "ProtectX",
+    servers: " Discord anti-crash bot",
+    btn: "Live",
+  },
 ];
 

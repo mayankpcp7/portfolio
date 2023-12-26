@@ -22,6 +22,16 @@
   top: 20px;
   left: 150px;
 }
+.contacts_line::before {
+  content: "";
+  position: absolute;
+  max-width: 127px;
+  width: 100%;
+  height: 2px;
+  background: #c778dd;
+  top: 20px;
+  left: 190px;
+}
 
 @media (max-width: 567.98px) {
   .projects_line::before {

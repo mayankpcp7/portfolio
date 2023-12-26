@@ -1,12 +1,14 @@
 import React from "react";
 import Nav from "../components/common/Nav";
-import Projects from "../components/Projects";
+import CompleteApps from "../components/CompleteApps";
+import Footer from "../components/Footer";
 
 const Project = () => {
   return (
     <>
       <Nav />
-      <Projects />
+      <CompleteApps />
+      <Footer/>
     </>
   );
 };

@@ -27,7 +27,7 @@ const Projects = () => {
           </div>
 
           <div className="flex flex-wrap justify-center md:justify-start">
-            {projects.map((index) => (
+            {projects.slice(0,3).map((index) => (
               <div className=" w-full max-w-[375px] md:w-6/12 lg:w-4/12 sm:px-3 mt-6">
                 <div className=" border border-[#ABB2BF]">
                   <img src={index.img} alt="map-img" className="w-full" />
