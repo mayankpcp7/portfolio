@@ -15,7 +15,7 @@ const Footer = () => {
               to="/"
               className="ff_fira text-white font-bold flex items-center gap-2"
             >
-              <LogoIcon /> Kapil Dev
+              <LogoIcon />Sumit-Chouhan
             </Link>
             <p className="text-[16px] ff_fira text-white mt-4">
               {" "}
@@ -25,19 +25,19 @@ const Footer = () => {
           <div className="w-6/12">
             <div className=" flex float-end ">
               <div>
-                <p className=" font-medium text-white text-lg sm:text-xl md:text-2xl ff_fira ">
+                <p className="font-medium text-white text-lg sm:text-xl md:text-2xl ff_fira ">
                   Media
                 </p>
 
-                <div className=" flex items-center mt-4">
+                <div className="flex items-center mt-4">
                   <a href="#">
                     <img src={discord} alt="discord" />
                   </a>
 
-                  <a href="#" className=" mx-3">
+                  <a href="https://web.whatsapp.com/" className=" mx-3">
                     <img src={whatApp} alt="whatApp" />
                   </a>
-                  <a href="#">
+                  <a href="www.linkedin.com/in/sumit-chauhan-a40946242" target="blank">
                     <img src={linkden} alt="linkden" />
                   </a>
                 </div>
@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
         </div>
         <p className="text-[16px] ff_fira text-[#ABB2BF] text-center mt-9 md:mt-12">
-          © Copyright {getNewYear} Made by Kapil Dev
+          © Copyright {getNewYear} Made by Sumit Chouhan
         </p>
       </div>
     </div>

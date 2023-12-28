@@ -1,7 +1,8 @@
 import React from "react";
 import wahtApp from "../components/assets/images/svg/whatsapp-icon.svg";
 import emailIcon from "../components/assets/images/svg/Email-icon.svg";
-import twitter from "../components/assets/images/svg/Twitter.svg";
+import discord from "../components/assets/images/svg/Discord-icon.svg";
+import linkdin from "../components/assets/images/svg/bi_linkedin.svg";
 import hlafBox from "../components/assets/images/svg/box.svg";
 import dotsC from "../components/assets/images/svg/dots-c.svg";
 
@@ -38,10 +39,10 @@ const AllMedia = () => {
                   Support me here
                 </p>
                 <a
-                  href="tel:+9053730515"
+                  href="tel:+8221077926"
                   className=" ff_fira text-[16px] text-[#ABB2BF]"
                 >
-                  (+91) 9053730515
+                  (+91) 8221077926
                 </a>
               </div>
               <div className=" border border-[#ABB2BF] p-4 mt-3 sm:mt-0  sm:ms-3">
@@ -49,21 +50,21 @@ const AllMedia = () => {
                   Message me here
                 </p>
                 <div className=" mt-4">
-                  <a href="tel:+9053730515" className=" flex items-center">
+                  <a href="tel:+ 8221077926" className=" flex items-center">
                     <img src={wahtApp} alt="wahtApp" />
                     <span className="text-[16px] ff_fira text-[#ABB2BF] inline-block ms-2">
-                      (+91)9053730515
+                      (+91) 8221077926
                     </span>
                   </a>
                 </div>
-                <div className=" mt-2">
+                <div className="mt-2">
                   <a
-                    href="mailto:vermakp39@gmail.com"
-                    className=" flex items-center"
+                    href="mailto:sumitkhan.dhana@gmail.com"
+                    className="flex items-center"
                   >
                     <img src={emailIcon} alt="emailIcon" />
                     <span className="text-[16px] ff_fira text-[#ABB2BF] inline-block ms-2">
-                      vermakp39@gmail.com
+                     sumitkhan.dhana@gmail.com
                     </span>
                   </a>
                 </div>
@@ -73,19 +74,19 @@ const AllMedia = () => {
         </div>
 
         <h2 className="ff_fira font-semibold text-white text-[22px] sm:text-3xl md:text-[32px] mt-9 lg:mt-16">
-          <span className=" text-[#C778DD]">#</span>my-projects
+          <span className=" text-[#C778DD]">#</span>all-media
         </h2>
-        <div className=" flex items-center mt-6">
+        <div className="flex items-center mt-6">
           <a href="" className=" flex items-center">
-            <img src={twitter} alt="twitter" />
-            <span className=" ms-1 ff_fira text-[16px] text-[#ABB2BF]">
-              @kapil
+            <img src={discord} alt="twitter" />
+            <span className="ms-1 ff_fira text-[16px] text-[#ABB2BF]">
+              
             </span>
           </a>
           <a href="" className=" flex items-center ms-5">
-            <img src={twitter} alt="twitter" />
+            <img src={linkdin} alt="twitter" />
             <span className=" ms-1 ff_fira text-[16px] text-[#ABB2BF]">
-              @kapil
+             
             </span>
           </a>
         </div>

@@ -28,22 +28,22 @@ const Contacts = () => {
                 <p className="text-[16px] ff_fira font-semibold text-white">
                   Message me here
                 </p>
-                <div className=" mt-4">
-                  <a href="tel:+9053730515" className=" flex items-center">
+                <div className="mt-4">
+                  <a href="tel:+8221077926" className=" flex items-center">
                     <img src={wahtApp} alt="wahtApp" />
                     <span className="text-[16px] ff_fira text-[#ABB2BF] inline-block ms-2">
-                      (+91)9053730515
+                      (+91)8221077926
                     </span>
                   </a>
                 </div>
                 <div className=" mt-2">
                   <a
-                    href="mailto:vermakp39@gmail.com"
+                    href="sumitkhan.dhana@gmail.com"
                     className=" flex items-center"
                   >
                     <img src={emailIcon} alt="emailIcon" />
                     <span className="text-[16px] ff_fira text-[#ABB2BF] inline-block ms-2">
-                      vermakp39@gmail.com
+                      sumitkhan.dhana@gmail.com
                     </span>
                   </a>
                 </div>

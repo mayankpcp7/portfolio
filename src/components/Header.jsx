@@ -11,9 +11,9 @@ const Header = () => {
         <div className="flex items-center flex-wrap justify-center">
           <div className="md:w-7/12">
             <h1 className="ff_fira font-semibold text-white text-[22px] sm:text-3xl md:text-[32px]">
-              Sumit chouhan: Crafting Exceptional{" "}
+              Sumit chouhan:Responsive Design Expert{" "}
               <span className="text-[#C778DD] ff_fira text-[28px] sm:text-[32px]">
-                Front-End Experiences.
+              Creative Frontend Engineer
               </span>
             </h1>
             <p className="ff_fira text-[#ABB2BF] leading-[156%] py-4 mb-1 sm:py-6 lg:max-w-lg lg:pe-5">
