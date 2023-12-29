@@ -9,10 +9,18 @@ import github from "./assets/images/svg/github.svg";
 const Header = () => {
   return (
     <div className="lg:h-screen flex flex-col relative">
-      <div className="absolute top-0 left-0">
-        <img src={github} alt="discord" />
-        <img src={Email} alt="discord" />
-        <img src={discord} alt="discord" />
+      <div className="fixed z-30 top-[10%] left-[2%] gap-1 hidden xl:block">
+        <span className="h-[2px] w-[90px] left-[-90%] rotate-90 top-[-50%] bg-white absolute"></span>
+        <a target="blank" href="https://github.com/sumit-chouhan-194">
+          <img src={github} alt="discord" />
+        </a>
+
+        <a target="blank" href="mailto:sumitkhan.dhana@gmail.com">
+          <img src={Email} alt="discord" />
+        </a>
+        <a target="blank"  href="https://discord.com/users/1078548787242475631" >
+          <img src={discord} alt="discord" />
+        </a>
       </div>
       <Nav />
       <div className="container flex-grow flex justify-center items-center h-full xl:max-w-[1100px] 3xl:max-w-[1140px] mx-auto px-3 py-12 lg:py-0">

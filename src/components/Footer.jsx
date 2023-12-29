@@ -30,7 +30,7 @@ const Footer = () => {
                 </p>
 
                 <div className="flex items-center mt-4">
-                  <a className="hover:scale-125 transition-all duration-200" href="#" target="blank">
+                  <a className="hover:scale-125 transition-all duration-200" href="https://discord.com/users/1078548787242475631" target="blank">
                     <img src={discord} alt="discord" />
                   </a>
 

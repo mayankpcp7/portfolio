@@ -38,7 +38,7 @@ const Contacts = () => {
                 </div>
                 <div className="mt-2">
                   <a
-                    href="sumitkhan.dhana@gmail.com"
+                    href="mailto:sumitkhan.dhana@gmail.com"
                     className="flex items-center"
                   >
                     <img src={emailIcon} alt="emailIcon" />
