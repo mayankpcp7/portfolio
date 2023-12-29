@@ -43,7 +43,7 @@ const Projects = () => {
 
   return (
     <>
-      <div className="project_parent overflow-hidden" ref={projectParentRef}>
+      <div className="overflow-hidden" ref={projectParentRef}>
         <div className="pt-12 lg:pt-[74px] relative">
           <img
             src={dotsImg}
