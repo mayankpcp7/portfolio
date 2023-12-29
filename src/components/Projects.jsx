@@ -58,11 +58,10 @@ const Projects = () => {
                 </span>
               </a>
             </div>
-
             <div className="flex flex-wrap justify-center md:justify-start">
               {projects.slice(0, 3).map((index) => (
                 <div className=" w-full max-w-[375px] md:w-6/12 lg:w-4/12 sm:px-3 mt-6 project_cards">
-                  <div className=" border border-[#ABB2BF]">
+                  <div className=" border border-[#ABB2BF] lg:min-h-[448px] xl:min-h-[440px] flex flex-col justify-between">
                     <img src={index.img} alt="map-img" className="w-full" />
                     <p className=" ff_fira text-[#ABB2BF] py-2 px-2 border-b border-b-[#ABB2BF]">
                       {index.skill}
@@ -73,12 +72,14 @@ const Projects = () => {
                     <p className=" ff_fira text-[16px] px-4 pb-3 sm:pb-4 text-[#ABB2BF]">
                       {index.servers}
                     </p>
-                    <button className=" flex items-center mx-4 mb-4 ff_fira font-medium text-white text-[16px] border border-[#ABB2BF] py-2 px-4">
-                      Live
-                      <span className=" ms-2">
-                        <img src={arrowP} alt="arrowP" />
-                      </span>
-                    </button>
+                    <div>
+                      <button className=" flex items-center mx-4 mb-4 ff_fira font-medium text-white text-[16px] border border-[#ABB2BF] py-2 px-4">
+                        Live
+                        <span className=" ms-2">
+                          <img src={arrowP} alt="arrowP" />
+                        </span>
+                      </button>
+                    </div>
                   </div>
                 </div>
               ))}
