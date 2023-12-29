@@ -24,14 +24,14 @@ const Contacts = () => {
           </div>
           <div className="w-full sm:w-6/12 mt-7 sm:mt-0">
             <div className="sm:flex justify-end">
-              <div className="border border-[#ABB2BF] p-4 ">
+              <div className="border border-[#ABB2BF] p-4 group  hover:bg-[#959b9b6c] transition-all duration-300">
                 <p className="text-[16px] ff_fira font-semibold text-white">
                   Message me here
                 </p>
                 <div className="mt-4">
                   <a href="tel:+8221077926" className=" flex items-center">
                     <img src={wahtApp} alt="wahtApp" />
-                    <span className="text-[16px] ff_fira text-[#ABB2BF] inline-block ms-2">
+                    <span className="text-[16px] ff_fira text-[#ABB2BF] inline-block ms-2 group-hover:text-white">
                       (+91)8221077926
                     </span>
                   </a>
@@ -39,10 +39,10 @@ const Contacts = () => {
                 <div className="mt-2">
                   <a
                     href="sumitkhan.dhana@gmail.com"
-                    className=" flex items-center"
+                    className="flex items-center"
                   >
                     <img src={emailIcon} alt="emailIcon" />
-                    <span className="text-[16px] ff_fira text-[#ABB2BF] inline-block ms-2">
+                    <span className="text-[16px] ff_fira text-[#ABB2BF] inline-block ms-2 group-hover:text-white">
                       sumitkhan.dhana@gmail.com
                     </span>
                   </a>

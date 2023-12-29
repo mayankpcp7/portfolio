@@ -30,14 +30,14 @@ const Footer = () => {
                 </p>
 
                 <div className="flex items-center mt-4">
-                  <a href="#">
+                  <a className="hover:scale-125 transition-all duration-200" href="#" target="blank">
                     <img src={discord} alt="discord" />
                   </a>
 
-                  <a href="https://web.whatsapp.com/" className=" mx-3">
+                  <a className="hover:scale-125 transition-all duration-200 mx-3" href="https://web.whatsapp.com/" target="blank">
                     <img src={whatApp} alt="whatApp" />
                   </a>
-                  <a href="www.linkedin.com/in/sumit-chauhan-a40946242" target="blank">
+                  <a className="hover:scale-125 transition-all duration-200" href="www.linkedin.com/in/sumit-chauhan-a40946242" target="blank">
                     <img src={linkden} alt="linkden" />
                   </a>
                 </div>
