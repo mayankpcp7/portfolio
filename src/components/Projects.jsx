@@ -1,4 +1,4 @@
-import React, { useLayoutEffect } from "react";
+import React, { useLayoutEffect, useRef } from "react";
 import viewAllAroww from "../components/assets/images/svg/Arrow.svg";
 import { projects } from "../components/common/Helper";
 import arrowP from "../components/assets/images/svg/Arrow_p.svg";
@@ -6,32 +6,44 @@ import dotsImg from "../components/assets/images/svg/dots.svg";
 import halfBox from "../components/assets/images/svg/box.svg";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
+
 const Projects = () => {
   gsap.registerPlugin(ScrollTrigger);
+
+  const projectParentRef = useRef(null);
+
   useLayoutEffect(() => {
-    let project = gsap.timeline({
-      scrollTrigger: ".project_parent",
-      start: "top top",
-      end: "bottom center",
-      markers: true,
-    });
-    project.fromTo(
-      ".project_cards",
-      {
-        xPercent: 100,
-        duration: 1,
-        ease: "back(2)",
-      },
-      {
-        xPercent: 10,
-        ease: "back(2)",
-        duration: 0.8,
+    let cards = gsap.matchMedia();
+    cards.add("(min-width: 992px)", () => {
+      if (projectParentRef.current) {
+        const project = gsap.timeline({
+          scrollTrigger: {
+            trigger: projectParentRef.current,
+            start: "top 50%",
+            end: "bottom top",
+          },
+        });
+        project.fromTo(
+          ".project_cards > div",
+          {
+            xPercent: 500,
+            duration: 1,
+            ease: "back(2)",
+          },
+          {
+            xPercent: 0,
+            ease: "back(2)",
+            duration: 0.8,
+            stagger: 0.2,
+          }
+        );
       }
-    );
+    });
   }, []);
+
   return (
     <>
-      <div className="project_parent">
+      <div className="project_parent overflow-hidden" ref={projectParentRef}>
         <div className="pt-12 lg:pt-[74px] relative">
           <img
             src={dotsImg}
@@ -59,9 +71,9 @@ const Projects = () => {
               </a>
             </div>
 
-            <div className="flex flex-wrap justify-center md:justify-start">
+            <div className="flex flex-wrap justify-center md:justify-start project_cards">
               {projects.slice(0, 3).map((index) => (
-                <div className=" w-full max-w-[375px] md:w-6/12 lg:w-4/12 sm:px-3 mt-6 project_cards">
+                <div className=" w-full max-w-[375px] md:w-6/12 lg:w-4/12 sm:px-3 mt-6">
                   <div className=" border border-[#ABB2BF]">
                     <img src={index.img} alt="map-img" className="w-full" />
                     <p className=" ff_fira text-[#ABB2BF] py-2 px-2 border-b border-b-[#ABB2BF]">
