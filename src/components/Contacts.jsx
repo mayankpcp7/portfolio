@@ -15,16 +15,16 @@ const Contacts = () => {
         <h2 className="text-white font-medium ff_fira text-[22px] sm:text-3xl md:text-[32px] sm:text-[32px] relative contacts_line">
           <span className="text-[#C778DD]">#</span>contacts
         </h2>
-        <div className=" flex flex-wrap mt-6 md:mt-11">
-          <div className=" sm:w-6/12">
+        <div className="flex flex-wrap mt-6 md:mt-11">
+          <div className="sm:w-6/12">
             <p className="text-[16px] ff_fira text-[#ABB2BF] max-w-[505px]">
               I’m interested in freelance opportunities. However, if you have
               other request or question, don’t hesitate to contact me
             </p>
           </div>
-          <div className=" w-full sm:w-6/12 mt-7 sm:mt-0">
-            <div className=" sm:flex justify-end">
-              <div className=" border border-[#ABB2BF] p-4 ">
+          <div className="w-full sm:w-6/12 mt-7 sm:mt-0">
+            <div className="sm:flex justify-end">
+              <div className="border border-[#ABB2BF] p-4 ">
                 <p className="text-[16px] ff_fira font-semibold text-white">
                   Message me here
                 </p>
@@ -36,7 +36,7 @@ const Contacts = () => {
                     </span>
                   </a>
                 </div>
-                <div className=" mt-2">
+                <div className="mt-2">
                   <a
                     href="sumitkhan.dhana@gmail.com"
                     className=" flex items-center"

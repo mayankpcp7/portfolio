@@ -22,7 +22,7 @@ const About = () => {
               Hello, i’m Sumit Chouhan!
             </p>
             <p className="ff_fira text-[#ABB2BF] leading-[162%] py-3 lg:py-5">
-              I’m a self-taught front-end developer based in Kyiv, Ukraine. I
+              I’m a self-taught front-end developer based in Haryana, India. I
               can develop responsive websites from scratch and raise them into
               modern user-friendly web experiences.
             </p>

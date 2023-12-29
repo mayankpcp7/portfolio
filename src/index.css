@@ -7,3 +7,6 @@ body{background-color: #282C33 !important;}
 .text_stroke {
   -webkit-text-stroke-width: 0.2px;
 }
+::-webkit-scrollbar {
+  display: none !important;
+}

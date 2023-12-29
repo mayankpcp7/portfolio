@@ -2,6 +2,7 @@ import React from "react";
 import hero_img from "../assets/images/png/hero_img.png";
 import Nav from "./common/Nav";
 import { HeroImgIcon } from "./common/Icon";
+import Typist from "react-typist";
 import dots from "../assets/images/png/hero-img-dots.png"
 const Header = () => {
   return (
@@ -16,6 +17,11 @@ const Header = () => {
               Creative Frontend Engineer
               </span>
             </h1>
+            <Typist cursor={{ blink: true }} avgTypingDelay={200}>
+        <span> First Sentence</span>
+        <Typist.Backspace count={8} delay={200} />
+        <span> Phrase </span>
+      </Typist>
             <p className="ff_fira text-[#ABB2BF] leading-[156%] py-4 mb-1 sm:py-6 lg:max-w-lg lg:pe-5">
               He crafts responsive websiteswhere technologies meet creativity
             </p>

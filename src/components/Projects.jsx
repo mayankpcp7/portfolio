@@ -85,12 +85,14 @@ const Projects = () => {
                     <p className=" ff_fira text-[16px] px-4 pb-3 sm:pb-4 text-[#ABB2BF]">
                       {index.servers}
                     </p>
-                    <button className=" flex items-center mx-4 mb-4 ff_fira font-medium text-white text-[16px] border border-[#ABB2BF] py-2 px-4">
-                      Live
-                      <span className=" ms-2">
-                        <img src={arrowP} alt="arrowP" />
-                      </span>
-                    </button>
+                    <div>
+                      <button className=" flex items-center mx-4 mb-4 ff_fira font-medium text-white text-[16px] border border-[#ABB2BF] py-2 px-4">
+                        Live
+                        <span className=" ms-2">
+                          <img src={arrowP} alt="arrowP" />
+                        </span>
+                      </button>
+                    </div>
                   </div>
                 </div>
               ))}
