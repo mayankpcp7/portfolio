@@ -8,8 +8,16 @@ const Projects = () => {
   return (
     <>
       <div className="pt-12 lg:pt-[74px] relative">
-        <img src={dotsImg} alt="dotsImg" className=" absolute hidden lg:block top-[22%] z-[-1]" />
-        <img src={halfBox} alt="halfBox" className=" hidden xl:block absolute top-[57%] right-0" />
+        <img
+          src={dotsImg}
+          alt="dotsImg"
+          className=" absolute hidden lg:block top-[22%] z-[-1]"
+        />
+        <img
+          src={halfBox}
+          alt="halfBox"
+          className=" hidden xl:block absolute top-[57%] right-0"
+        />
         <div className=" px-3 container xl:max-w-[1100px] 3xl:max-w-[1140px] mx-auto ">
           <div className=" flex justify-between">
             <h2 className="text-white font-medium ff_fira text-[22px] sm:text-3xl md:text-[32px] sm:text-[32px] relative projects_line">
@@ -27,9 +35,9 @@ const Projects = () => {
           </div>
 
           <div className="flex flex-wrap justify-center md:justify-start">
-            {projects.slice(0,3).map((index) => (
+            {projects.slice(0, 3).map((index) => (
               <div className=" w-full max-w-[375px] md:w-6/12 lg:w-4/12 sm:px-3 mt-6">
-                <div className=" border border-[#ABB2BF]">
+                <div className=" border border-[#ABB2BF] lg:min-h-[448px] xl:min-h-[440px] flex flex-col justify-between">
                   <img src={index.img} alt="map-img" className="w-full" />
                   <p className=" ff_fira text-[#ABB2BF] py-2 px-2 border-b border-b-[#ABB2BF]">
                     {index.skill}
@@ -40,12 +48,14 @@ const Projects = () => {
                   <p className=" ff_fira text-[16px] px-4 pb-3 sm:pb-4 text-[#ABB2BF]">
                     {index.servers}
                   </p>
-                  <button className=" flex items-center mx-4 mb-4 ff_fira font-medium text-white text-[16px] border border-[#ABB2BF] py-2 px-4">
-                    Live
-                    <span className=" ms-2">
-                      <img src={arrowP} alt="arrowP" />
-                    </span>
-                  </button>
+                  <div>
+                    <button className=" flex items-center mx-4 mb-4 ff_fira font-medium text-white text-[16px] border border-[#ABB2BF] py-2 px-4">
+                      Live
+                      <span className=" ms-2">
+                        <img src={arrowP} alt="arrowP" />
+                      </span>
+                    </button>
+                  </div>
                 </div>
               </div>
             ))}
