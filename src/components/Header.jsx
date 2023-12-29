@@ -11,15 +11,15 @@ const Header = () => {
     <div className="lg:h-screen flex flex-col relative">
       <div className="fixed z-30 top-[10%] left-[2%] gap-1 hidden xl:block">
         <span className="h-[2px] w-[90px] left-[-90%] rotate-90 top-[-50%] bg-white absolute"></span>
-        <a target="blank" href="https://github.com/sumit-chouhan-194">
-          <img src={github} alt="discord" />
+        <a  className="group transition-all duration-200" target="blank" href="https://github.com/sumit-chouhan-194">
+          <img className="group-hover:scale-125" src={github} alt="discord" />
         </a>
 
-        <a target="blank" href="mailto:sumitkhan.dhana@gmail.com">
-          <img src={Email} alt="discord" />
+        <a className="group" target="blank" href="mailto:sumitkhan.dhana@gmail.com">
+          <img className="group-hover:scale-125 transition-all duration-200" src={Email} alt="discord" />
         </a>
-        <a target="blank"  href="https://discord.com/users/1078548787242475631" >
-          <img src={discord} alt="discord" />
+        <a className=" group" target="blank"  href="https://discord.com/users/1078548787242475631" >
+          <img className="group-hover:scale-125 transition-all duration-200" src={discord} alt="discord" />
         </a>
       </div>
       <Nav />
