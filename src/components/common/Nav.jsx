@@ -37,7 +37,13 @@ const Nav = () => {
                     }`}
                     to={link.to}
                   >
-                    <span className={`${ path === link.to ? "text_stroke !text-[#C778DD]" : ""} text-[#C778DD]`}>{link.has}</span>
+                    <span
+                      className={`${
+                        path === link.to ? "text_stroke !text-[#C778DD]" : ""
+                      } text-[#C778DD]`}
+                    >
+                      {link.has}
+                    </span>
                     {link.label}
                   </Link>
                 ))}
@@ -69,11 +75,18 @@ const Nav = () => {
             {navLinks.map((link, index) => (
               <Link
                 key={index}
-                className={`ff_fira text-[#ABB2BF] text-lg hover:text-white transition-all duration-200 relative before:absolute before:h-[2px] hover:before:left-0 before:transition-all before:duration-300 hover:before:w-full before:w-0 before:bottom-0 before:bg-white before:left-[50%] before:content-[''] ${
+                className={`ff_fira text-[#ABB2BF] text-lg hover:text-white font-medium transition-all duration-200 relative before:absolute before:h-[2px] hover:before:left-0 before:transition-all before:duration-300 hover:before:w-full before:w-0 before:bottom-0 before:bg-white before:left-[50%] before:content-[''] ${
                   path === link.to ? "text_stroke !text-white" : ""
                 }`}
                 to={link.to}
               >
+                <span
+                  className={`${
+                    path === link.to ? "text_stroke !text-[#C778DD]" : ""
+                  } text-[#C778DD]`}
+                >
+                  {link.has}
+                </span>
                 {link.label}
               </Link>
             ))}
