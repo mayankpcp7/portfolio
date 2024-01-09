@@ -10,3 +10,17 @@ body{background-color: #282C33 !important;}
 ::-webkit-scrollbar {
   display: none !important;
 }
+
+
+.custom-cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background-color: violet; /* Customize the background color as needed */
+  border-radius: 50%;
+  pointer-events: none; /* Ensure the cursor doesn't interfere with clickable elements */
+  mix-blend-mode: difference; /* Optional: Adjust blend mode for better visibility */
+  z-index: 9999; /* Make sure it's above other elements */
+  transform: translate(-50%, -50%);
+  transition: transform 0.2s ease-out;
+}

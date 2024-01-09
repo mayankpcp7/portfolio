@@ -7,10 +7,12 @@ import About from "../components/common/About";
 import Contacts from "../components/Contacts";
 import Footer from "../components/Footer";
 import ProgressBar from "../components/ProgressBar";
+import Cursor from "../components/Cursor";
 
 const Home = () => {
   return (
-    <><ProgressBar />
+    <> <Cursor />
+    <ProgressBar />
       <Header />
       <GreatPower />
       <Projects />
