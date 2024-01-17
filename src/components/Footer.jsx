@@ -18,7 +18,6 @@ const Footer = () => {
               <LogoIcon />Sumit-Chouhan
             </Link>
             <p className="text-[16px] ff_fira text-white mt-4">
-              {" "}
               front-end developer
             </p>
           </div>
@@ -28,7 +27,6 @@ const Footer = () => {
                 <p className="font-medium text-white text-lg sm:text-xl md:text-2xl ff_fira ">
                   Media
                 </p>
-
                 <div className="flex items-center mt-4">
                   <a className="hover:scale-125 transition-all duration-200" href="https://discord.com/users/1078548787242475631" target="blank">
                     <img src={discord} alt="discord" />
