@@ -25,7 +25,7 @@ const Nav = () => {
               to="/"
               className="ff_fira text-white font-bold flex items-center gap-2"
             >
-              <LogoIcon /> Sumit-Chouhan
+              <LogoIcon /> Mayank
             </Link>
             <div className="hidden sm:block">
               <div className="gap-5 flex items-center">

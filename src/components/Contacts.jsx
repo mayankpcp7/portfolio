@@ -32,18 +32,18 @@ const Contacts = () => {
                   <a href="tel:+8221077926" className=" flex items-center">
                     <img src={wahtApp} alt="wahtApp" />
                     <span className="text-[16px] ff_fira text-[#ABB2BF] inline-block ms-2 group-hover:text-white">
-                      (+91)8221077926
+                      (+91)9467333914
                     </span>
                   </a>
                 </div>
                 <div className="mt-2">
                   <a
-                    href="mailto:sumitkhan.dhana@gmail.com"
+                    href="mailto:jariwalmayank123@gmail.com"
                     className="flex items-center"
                   >
                     <img src={emailIcon} alt="emailIcon" />
                     <span className="text-[16px] ff_fira text-[#ABB2BF] inline-block ms-2 group-hover:text-white">
-                      sumitkhan.dhana@gmail.com
+                      jariwalmayank123@gmail.com
                     </span>
                   </a>
                 </div>

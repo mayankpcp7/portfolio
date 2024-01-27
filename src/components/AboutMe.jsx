@@ -31,10 +31,10 @@ const AboutMe = () => {
         <div className="flex flex-wrap  items-center justify-center md:justify-between">
           <div className="md:w-6/12">
             <p className="ff_fira text-[#ABB2BF] leading-[162%] pt-6">
-              Hello, i’m Sumit Chouhan!
+              Hello, i’m Mayank
             </p>
             <p className="ff_fira text-[#ABB2BF] leading-[162%] py-3 lg:py-5">
-              I’m a self-taught front-end developer based in India, Haryana. I
+              I’m a self-taught front-end developer based in Haryana, India. I
               can develop responsive websites from scratch and raise them into
               modern user-friendly web experiences.
             </p>

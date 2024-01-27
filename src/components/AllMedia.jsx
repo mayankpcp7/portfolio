@@ -43,7 +43,7 @@ const AllMedia = () => {
                   href="tel:+8221077926"
                   className="ff_fira text-[16px] text-[#ABB2BF] group-hover:text-white"
                 >
-                  (+91)8221077926
+                  (+91)9467333914
                 </a>
               </div>
               <div className="border border-[#ABB2BF] hover:bg-[#959b9b6c] transition-all duration-300 group p-4 mt-3 sm:mt-0 sm:ms-3">
@@ -54,7 +54,7 @@ const AllMedia = () => {
                   <a href="tel:+ 8221077926" className="flex items-center">
                     <img src={wahtApp} alt="wahtApp" />
                     <span className="text-[16px] ff_fira text-[#ABB2BF] inline-block ms-2 group-hover:text-white">
-                      (+91)8221077926
+                      (+91)9467333914
                     </span>
                   </a>
                 </div>
@@ -65,7 +65,7 @@ const AllMedia = () => {
                   >
                     <img src={emailIcon} alt="emailIcon" />
                     <span className="text-[16px] ff_fira text-[#ABB2BF] inline-block ms-2 group-hover:text-white">
-                     sumitkhan.dhana@gmail.com
+                      jariwalmayank123@gmail.com
                     </span>
                   </a>
                 </div>
@@ -78,23 +78,29 @@ const AllMedia = () => {
           <span className="text-[#C778DD]">#</span>all-media
         </h2>
         <div className="flex items-center mt-6 gap-2">
-          <a target="blank" href="https://github.com/sumit-chouhan-194" className="flex items-center transition-all duration-200 hover:scale-125">
+          <a
+            target="blank"
+            href="https://github.com/mayankpcp7"
+            className="flex items-center transition-all duration-200 hover:scale-125"
+          >
             <img src={github} alt="twitter" />
-            <span className="ms-1 ff_fira text-[16px] text-[#ABB2BF]">
-              
-            </span>
+            <span className="ms-1 ff_fira text-[16px] text-[#ABB2BF]"></span>
           </a>
-          <a href="https://discord.com/users/1078548787242475631" target="blank" className="flex items-center transition-all duration-200 hover:scale-125">
+          <a
+            href="#"
+            target="blank"
+            className="flex items-center transition-all duration-200 hover:scale-125"
+          >
             <img src={discord} alt="twitter" />
-            <span className="ms-1 ff_fira text-[16px] text-[#ABB2BF]">
-              
-            </span>
+            <span className="ms-1 ff_fira text-[16px] text-[#ABB2BF]"></span>
           </a>
-          <a target="blank" href="mailto:sumitkhan.dhana@gmail.com" className="flex items-center transition-all duration-200 hover:scale-125">
+          <a
+            target="blank"
+            href="mailto:jariwalmayank123@gmail.com"
+            className="flex items-center transition-all duration-200 hover:scale-125"
+          >
             <img src={Email} alt="twitter" />
-            <span className="ms-1 ff_fira text-[16px] text-[#ABB2BF]">
-             
-            </span>
+            <span className="ms-1 ff_fira text-[16px] text-[#ABB2BF]"></span>
           </a>
         </div>
       </div>

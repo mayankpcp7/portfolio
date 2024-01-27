@@ -27,7 +27,7 @@ const Header = () => {
         <div className="flex items-center flex-wrap justify-center">
           <div className="md:w-7/12">
             <h1 className="ff_fira font-semibold text-white text-[22px] sm:text-3xl md:text-[32px]">
-              Sumit chouhan:Responsive Design Expert{" "}
+              Mayank:Responsive Design Expert{" "}
               <span className="text-[#C778DD] ff_fira text-[28px] sm:text-[32px]">
                 Creative Frontend Engineer
               </span>
